@@ -1,0 +1,77 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" controllerName="com.sap.build.standard.untitledPrototype.controller.Page2" xmlns="sap.m" xmlns:core="sap.ui.core" xmlns:layout="sap.ui.commons.layout">
+    <Page showHeader="false" title="Page Title" showFooter="false" showNavButton="false" enableScrolling="false">
+        <content>
+            <layout:AbsoluteLayout horizontalScrolling="Hidden" verticalScrolling="Auto">
+                <layout:positions>
+                    <layout:PositionContainer left="0px" top="0px">
+                        <layout:control>
+                            <Image src="/webapp/resources/61283-b7dlfbqfvi.png" height="1275.125px" width="1280px" visible="true" densityAware="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="167px" top="213px">
+                        <layout:control>
+                            <TextArea rows="15" cols="150" maxLength="0" wrapping="None" enabled="true" required="false" valueStateText="Invalid entry" visible="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="59px" top="154px">
+                        <layout:control>
+                            <Image src="/webapp/resources/tomato-2643774_960_720.jpg" height="232.28125px" width="349.515625px" visible="true" densityAware="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="0px" top="0px">
+                        <layout:control>
+                            <Image src="/webapp/resources/download__1_.png" height="136.21875px" width="136.21875px" visible="true" densityAware="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="670px" top="193px">
+                        <layout:control>
+                            <FormattedText htmlText="&lt;p style = &quot;font-family:georgia,garamond,serif;font-size:40px;font-style:bold;&quot;>         TOMATO FARM    &lt;/p>" width="351.609375px" height="176.828125px" visible="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="644px" top="308px">
+                        <layout:control>
+                            <Image src="/webapp/resources/Inside_tomato.jpg" height="184.375px" width="337.375px" visible="true" densityAware="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="170px" top="529px">
+                        <layout:control>
+                            <ProgressIndicator width="1081.16000000px" height="16.00000000px" percentValue="75" showValue="true" displayValue="75 %" state="None" enabled="true" visible="true"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="166px" top="674px">
+                        <layout:control>
+                            <Image src="/webapp/resources/Inside_tomato__2_.jpg" height="577.68000000px" width="453.93770899px" visible="true" densityAware="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="163px" top="567px">
+                        <layout:control>
+                            <Image src="/webapp/resources/Inside_tomato__1_.jpg" height="89px" width="1095px" visible="true" densityAware="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="729px" top="672px">
+                        <layout:control>
+                            <Image src="/webapp/resources/Inside_tomato__3_.jpg" height="573.84000000px" width="427.53920508px" visible="true" densityAware="false"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                    <layout:PositionContainer left="1208px" top="137px">
+                        <layout:control>
+                            <core:Icon src="sap-icon://home" size="48px" height="48px" width="48px" visible="true" press="_onIconPress"/>
+                        </layout:control>
+                    </layout:PositionContainer>
+                </layout:positions>
+            </layout:AbsoluteLayout>
+        </content>
+        <footer>
+            <OverflowToolbar width="100%" height="46px" design="Auto" enabled="true" visible="true">
+                <content>
+                    <ToolbarSpacer width=""/>
+                    <Button text="Save" type="Emphasized" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"/>
+                    <Button text="Cancel" type="Default" iconFirst="true" width="auto" enabled="true" visible="true" iconDensityAware="false"/>
+                </content>
+            </OverflowToolbar>
+        </footer>
+        <headerContent/>
+        <subHeader/>
+        <customHeader/>
+    </Page>
+</mvc:View>
